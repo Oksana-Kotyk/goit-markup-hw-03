@@ -131,12 +131,10 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .list-contacts {
   margin-left: 330px;
-} /*
-.list-contacts:last-child {
-  margin-left: 0;
-} */
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -242,9 +240,7 @@ img {
   /* justify-content: center; */
   align-items: center;
 }
-/* .list-works {
-  display: flex;
-} */
+
 .haeding-works {
   margin-bottom: 50px;
 }
@@ -287,9 +283,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
-/* .team-img {
-  margin-bottom: 30px;
-} */
+
 .team-description {
   width: 270px;
   display: flex;
@@ -319,8 +313,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .footer-container {
-} */
+
 .logo-link {
   display: block;
   margin-bottom: 20px;
