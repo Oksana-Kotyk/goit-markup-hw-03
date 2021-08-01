@@ -76,6 +76,8 @@ img {
   line-height: 31px;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-text {
   color: var(--primary-black-color);
@@ -231,14 +233,17 @@ img {
 }
 
 /* Секция чем мы занимаемся */
-.section .works {
-  padding-top: 0;
+.cont-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .works {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  padding-top: 0;
 }
 
 .haeding-works {
@@ -289,10 +294,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding-top: 30px;
   padding-bottom: 30px;
-
   background-color: var(--primary-white-color);
 }
 .team-member {
@@ -380,6 +383,7 @@ img {
   font-size: 16px;
   cursor: pointer;
   padding: 6px 22px;
+  border: none;
 }
 .current-btn {
   color: var(--primary-white-color);
@@ -399,10 +403,14 @@ img {
   margin: -15px;
 }
 .portfolio-text {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: ;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .portfolio-item {
   color: var(--title-text-color);
