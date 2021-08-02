@@ -181,6 +181,7 @@ img {
   padding: 10px 32px;
   cursor: pointer;
   border: none;
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -233,15 +234,10 @@ img {
 }
 
 /* Секция чем мы занимаемся */
-.cont-works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .works {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   padding-top: 0;
 }
@@ -262,6 +258,7 @@ img {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* Секция наша команда */
@@ -308,7 +305,6 @@ img {
 .team-member-description {
   line-height: 19px;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 /* Подвал */
 .footer-content {
@@ -319,6 +315,7 @@ img {
 
 .logo-link {
   display: block;
+  padding: 0;
   margin-bottom: 20px;
 }
 .logo-text-down {
@@ -339,6 +336,9 @@ img {
 }
 .link-li {
   margin-bottom: 9px;
+}
+.link-li:last-child {
+  margin-bottom: 0;
 }
 
 .link-item {
@@ -390,7 +390,7 @@ img {
   background-color: var(--accent-color);
 }
 .btn-filter:hover,
-.btn-filter:hover {
+.btn-filter:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -418,6 +418,7 @@ img {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .portfolio-subscribe {
   line-height: 30px;
